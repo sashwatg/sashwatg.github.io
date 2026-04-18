@@ -1,31 +1,464 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Sashwat Gupta</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sashwat Gupta — Legal Researcher & Advocate</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Jost:wght@300;400;500&family=Courier+Prime:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<h1>Sashwat Gupta</h1>
-<p>Criminology | International Law | Forensics</p>
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#">SG</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#positions">Positions</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
 
-<p>
-This website serves as my public academic profile and CV.
-</p>
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" onclick="closeMobile()">About</a></li>
+      <li><a href="#experience" onclick="closeMobile()">Experience</a></li>
+      <li><a href="#education" onclick="closeMobile()">Education</a></li>
+      <li><a href="#positions" onclick="closeMobile()">Positions</a></li>
+      <li><a href="#publications" onclick="closeMobile()">Publications</a></li>
+      <li><a href="#contact" onclick="closeMobile()">Contact</a></li>
+    </ul>
+  </div>
 
-<h2>Research Interests</h2>
-<ul>
-  <li>Criminal justice systems</li>
-  <li>International criminal law</li>
-  <li>Forensic science</li>
-</ul>
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-content">
+      <p class="hero-tag">Advocate · Researcher · LL.M. Candidate</p>
+      <h1 class="hero-name">Sashwat<br><em>Gupta</em></h1>
+      <blockquote class="hero-quote">
+        "I am drawn to the intersection of law &amp; power,<br>
+        where real change happens <em>(or should)</em>"
+      </blockquote>
+      <div class="hero-ctas">
+        <a href="#experience" class="btn-primary">View Experience</a>
+        <a href="#contact" class="btn-outline">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-aside">
+      <div class="hero-stat-grid">
+        <div class="hero-stat">
+          <span class="stat-n">10+</span>
+          <span class="stat-l">Internships</span>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-n">5+</span>
+          <span class="stat-l">Publications</span>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-n">3</span>
+          <span class="stat-l">Court Levels</span>
+        </div>
+        <div class="hero-stat">
+          <span class="stat-n">5</span>
+          <span class="stat-l">Years of Study</span>
+        </div>
+      </div>
+      <p class="hero-aside-note">Supreme Court · High Court · District Court</p>
+    </div>
+    <div class="hero-scroll">scroll ↓</div>
+  </header>
 
-<h2>Contact</h2>
-<p>Email: your@email.com</p>
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-inner two-col">
+      <div class="section-label-col">
+        <span class="section-tag">01 / About</span>
+      </div>
+      <div class="section-body-col">
+        <h2 class="section-heading">Who I Am</h2>
+        <p class="about-text">
+          I am a legal researcher and advocate currently pursuing an <strong>LL.M. in Cyber Law &amp; Cyber Crime Investigation</strong> at the National Forensic Sciences University, Bhubaneswar. My academic journey began with a B.B.A. LL.B. (Hons.) from Karnavati University, where I developed a deep interest in constitutional law, criminal justice, and the intersection of technology with legal frameworks.
+        </p>
+        <p class="about-text">
+          My practice spans litigation exposure at the Supreme Court, High Courts, and District Courts — giving me a rare multi-tier perspective on how law operates in practice versus theory. I combine <strong>qualitative fieldwork</strong> with <strong>quantitative analysis</strong>, and I am particularly drawn to minority politics, media influence, and law as a social instrument.
+        </p>
+        <p class="about-text">
+          Outside the courtroom and the library, I am someone who believes that the most important legal questions are always also political ones — and that good lawyering requires knowing the difference.
+        </p>
+        <div class="about-tags">
+          <span class="tag">Cyber Law</span>
+          <span class="tag">Constitutional Law</span>
+          <span class="tag">Criminal Justice</span>
+          <span class="tag">Human Rights</span>
+          <span class="tag">Forensic Law</span>
+          <span class="tag">Legal Research</span>
+          <span class="tag">Media & Society</span>
+          <span class="tag">Minority Politics</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<p style="font-size:12px;color:gray;">
-© 2026 Sashwat Gupta. Views expressed are personal.
-</p>
+  <div class="divider"></div>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="section-inner">
+      <div class="section-label-col">
+        <span class="section-tag">02 / Experience</span>
+      </div>
+      <div class="section-body-col">
+        <h2 class="section-heading">Work Experience</h2>
+        <div class="timeline">
+
+          <div class="tl-item">
+            <div class="tl-meta">
+              <span class="tl-date">Jan 2026 – Feb 2026</span>
+              <span class="tl-type">Virtual</span>
+            </div>
+            <div class="tl-body">
+              <h3 class="tl-role">Intern</h3>
+              <p class="tl-org">Scriboard Advocates &amp; Legal Consultants</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-meta">
+              <span class="tl-date">Jan 2026 – Feb 2026</span>
+              <span class="tl-type">Supreme Court</span>
+            </div>
+            <div class="tl-body">
+              <h3 class="tl-role">Intern</h3>
+              <p class="tl-org">Office of AOR Sindoora VNL, Supreme Court of India</p>
+            </div>
+          </div>
+
+          <div class="tl-item tl-highlight">
+            <div class="tl-meta">
+              <span class="tl-date">Jan 2025 – Feb 2025</span>
+              <span class="tl-type">Supreme Court</span>
+            </div>
+            <div class="tl-body">
+              <h3 class="tl-role">Judicial Intern</h3>
+              <p class="tl-org">Office of Hon'ble Mr. Justice Sudhanshu Dhulia, Supreme Court of India</p>
+            </div>
+          </div>
+
+          <div class="tl-item tl-highlight">
+            <div class="tl-meta">
+              <span class="tl-date">Dec 2024 – Jan 2025</span>
+              <span class="tl-type">Supreme Court</span>
+            </div>
+            <div class="tl-body">
+              <h3 class="tl-role">Intern</h3>
+              <p class="tl-org">Office of Additional Solicitor General of India, Aishwarya Bhati</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-meta">
+              <span class="tl-date">Jun 2024 – Jul 2024</span>
+              <span class="tl-type">District Court</span>
+            </div>
+            <div class="tl-body">
+              <h3 class="tl-role">Senior Intern</h3>
+              <p class="tl-org">Adv. Anand Kashyap, Meerut District Court, U.P.</p>
+            </div>
+          </div>
+
+          <div class="tl-item tl-highlight">
+            <div class="tl-meta">
+              <span class="tl-date">Dec 2023 – Jan 2024</span>
+              <span class="tl-type">High Court</span>
+            </div>
+            <div class="tl-body">
+              <h3 class="tl-role">Judicial Intern</h3>
+              <p class="tl-org">HMJ Saurabh Banerjee, High Court of Delhi</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-meta">
+              <span class="tl-date">May 2023 – Jun 2023</span>
+              <span class="tl-type">NGO</span>
+            </div>
+            <div class="tl-body">
+              <h3 class="tl-role">Intern</h3>
+              <p class="tl-org">Prayas Juvenile Aid Centre, Delhi</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-meta">
+              <span class="tl-date">Dec 2022 – Jan 2023</span>
+              <span class="tl-type">Supreme Court</span>
+            </div>
+            <div class="tl-body">
+              <h3 class="tl-role">Intern</h3>
+              <p class="tl-org">Adv. Surya Prakash Nigam, Supreme Court, Delhi</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-meta">
+              <span class="tl-date">Jun 2022 – Jul 2022</span>
+              <span class="tl-type">Heritage</span>
+            </div>
+            <div class="tl-body">
+              <h3 class="tl-role">Intern</h3>
+              <p class="tl-org">Indian National Trust for Art and Cultural Heritage (INTACH)</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-meta">
+              <span class="tl-date">Jan 2022 – Feb 2022</span>
+              <span class="tl-type">District Court</span>
+            </div>
+            <div class="tl-body">
+              <h3 class="tl-role">Intern</h3>
+              <p class="tl-org">Adv. Anand Kashyap, Meerut District Court, U.P.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <div class="section-inner two-col">
+      <div class="section-label-col">
+        <span class="section-tag">03 / Education</span>
+      </div>
+      <div class="section-body-col">
+        <h2 class="section-heading">Academic Background</h2>
+        <div class="edu-list">
+
+          <div class="edu-item">
+            <div class="edu-year">2025 – 2026</div>
+            <div class="edu-detail">
+              <h3 class="edu-degree">LL.M. in Cyber Law &amp; Cyber Crime Investigation</h3>
+              <p class="edu-inst">National Forensic Sciences University, Bhubaneswar, Odisha</p>
+              <p class="edu-note">Supervised by Dr. Bishwa Kallyan Dash</p>
+            </div>
+          </div>
+
+          <div class="edu-item">
+            <div class="edu-year">2020 – 2025</div>
+            <div class="edu-detail">
+              <h3 class="edu-degree">B.B.A. LL.B. (Hons.)</h3>
+              <p class="edu-inst">Unitedworld School of Law (UWSL), Karnavati University, Gandhinagar, Gujarat</p>
+            </div>
+          </div>
+
+          <div class="edu-item">
+            <div class="edu-year">2020</div>
+            <div class="edu-detail">
+              <h3 class="edu-degree">10+2 — Commerce &amp; Informatics Practices (CBSE)</h3>
+              <p class="edu-inst">Rosary Senior Secondary School, Delhi</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- POSITIONS -->
+  <section id="positions" class="section">
+    <div class="section-inner two-col">
+      <div class="section-label-col">
+        <span class="section-tag">04 / Leadership</span>
+      </div>
+      <div class="section-body-col">
+        <h2 class="section-heading">Positions of Responsibility</h2>
+        <div class="pos-list">
+
+          <div class="pos-item">
+            <span class="pos-date">Sept 2025 – Present</span>
+            <div class="pos-detail">
+              <h3 class="pos-title">Member — Legal Aid Committee</h3>
+              <p class="pos-org">NFSU, Bhubaneswar</p>
+            </div>
+          </div>
+
+          <div class="pos-item">
+            <span class="pos-date">Jan 2024 – May 2025</span>
+            <div class="pos-detail">
+              <h3 class="pos-title">Co-Convenor — Centre of Research for Human Rights</h3>
+              <p class="pos-org">UWSL, Karnavati University</p>
+            </div>
+          </div>
+
+          <div class="pos-item">
+            <span class="pos-date">Oct 2024 – Jul 2025</span>
+            <div class="pos-detail">
+              <h3 class="pos-title">Editor-in-Chief — Vyno Legal International Journal</h3>
+              <p class="pos-org">Editorial Leadership</p>
+            </div>
+          </div>
+
+          <div class="pos-item">
+            <span class="pos-date">Aug 2022 – Jul 2023</span>
+            <div class="pos-detail">
+              <h3 class="pos-title">Advisory — Legal Aid Clinic</h3>
+              <p class="pos-org">UWSL, Karnavati University</p>
+            </div>
+          </div>
+
+          <div class="pos-item">
+            <span class="pos-date">Sep 2021 – Jul 2022</span>
+            <div class="pos-detail">
+              <h3 class="pos-title">Creative Head — Legal Aid Clinic</h3>
+              <p class="pos-org">UWSL, Karnavati University</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications" class="section">
+    <div class="section-inner two-col">
+      <div class="section-label-col">
+        <span class="section-tag">05 / Publications</span>
+      </div>
+      <div class="section-body-col">
+        <h2 class="section-heading">Research &amp; Writing</h2>
+
+        <div class="pub-group">
+          <h3 class="pub-group-title">Articles</h3>
+          <ul class="pub-list">
+            <li>The POCSO Act — Analysis &amp; Implications</li>
+            <li>The Doctrine of Caveat Emptor</li>
+            <li>Artificial Intelligence and Law</li>
+          </ul>
+        </div>
+
+        <div class="pub-group">
+          <h3 class="pub-group-title">Research Papers</h3>
+          <ul class="pub-list">
+            <li>Role of Courts in Correctional Institutions</li>
+            <li>Pendency of Cases: A Hindrance for SDG-16 <span class="pub-journal">— Indian Journal of Law and Legal Research</span></li>
+          </ul>
+        </div>
+
+        <div class="pub-group">
+          <h3 class="pub-group-title">Certifications</h3>
+          <ul class="pub-list">
+            <li>Intellectual Property Rights — Karnavati University &amp; DPIIT</li>
+            <li>International Maritime Law — Gujarat Maritime University</li>
+            <li>Schools of Jurisprudence — The LAW Learners</li>
+          </ul>
+        </div>
+
+        <div class="pub-group">
+          <h3 class="pub-group-title">Conferences &amp; Outreach</h3>
+          <ul class="pub-list">
+            <li>National &amp; International Conferences on Environmental Governance, Human Rights, Forensic Justice</li>
+            <li>Organised environmental drives &amp; awareness campaigns in schools &amp; villages (2023–2025)</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-contact">
+    <div class="section-inner two-col">
+      <div class="section-label-col">
+        <span class="section-tag">06 / Contact</span>
+      </div>
+      <div class="section-body-col">
+        <h2 class="section-heading">Get in Touch</h2>
+        <p class="contact-intro">
+          Whether you're a recruiter, researcher, or fellow legal mind — I'm always open to conversations that matter.
+        </p>
+        <div class="contact-links">
+          <a class="contact-item" href="mailto:guptasashwat@gmail.com">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">guptasashwat@gmail.com ↗</span>
+          </a>
+          <a class="contact-item" href="https://linkedin.com/in/sashwat-gupta" target="_blank">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">Sashwat Gupta ↗</span>
+          </a>
+          <a class="contact-item" href="tel:+918595084598">
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">+91 85950 84598</span>
+          </a>
+          <div class="contact-item no-link">
+            <span class="contact-label">Reference</span>
+            <span class="contact-value">Adv. Thithiksha Padmam — <a href="mailto:advocatethithiksha@gmail.com">advocatethithiksha@gmail.com</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-name">Sashwat Gupta</p>
+      <p class="footer-copy">© 2026 · Views expressed are personal · Built with intention</p>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // Mobile menu
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+      mobileMenu.classList.toggle('open');
+      hamburger.classList.toggle('active');
+    });
+    function closeMobile() {
+      mobileMenu.classList.remove('open');
+      hamburger.classList.remove('active');
+    }
+
+    // Fade-in on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.tl-item, .edu-item, .pos-item, .pub-group, .section-heading, .about-text').forEach(el => {
+      el.classList.add('fade-in');
+      observer.observe(el);
+    });
+  </script>
 
 </body>
 </html>
